@@ -9,7 +9,7 @@ import json
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-bot = telebot.TeleBot("TOKEN")
+bot = telebot.TeleBot("5611277493:AAG326iy-jZlwYauzqoqk3aGl1_j6tRUhXs")
 
 @bot.message_handler(commands=['start', 'help'])
 def welcome(m):
