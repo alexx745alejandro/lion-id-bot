@@ -13,8 +13,7 @@ bot = telebot.TeleBot("TOKEN")
 
 @bot.message_handler(commands=['start', 'help'])
 def welcome(m):
-    bot.reply_to(m, "Hello I'm ID bot \n\n Send : \n  /id or /me or /info   \n or all pm text \n\n get your id : \n /idme (just pv)")
-
+    bot.reply_to(m, "Merhaba Ben Lion ID bot \n\n Gönder : \n /id veya /me veya /info \n veya tüm pm metni \n\n kimliğinizi alın: \n /idme (sadece pv)")
 @bot.message_handler(commands=['id', 'ids', 'info', 'me'])
 def id(m):      # info menu
     cid = m.chat.id
